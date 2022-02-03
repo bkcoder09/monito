@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title> Baby Monitoring </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    </head>
+    <body background="BG.jpg">
+        <center>
+        <h2> Baby Monitor </h2>
+        <br>
+        <label id="stats" class=" btn btn-danger"> Status - No Objects Detected </label>
+        <label id="uhoh" class="btn btn-warning"> Bay Not Found </label>
+        </center>
+        <script src="main.js"> </script>
+    </body>
+</html>
+
+<style>
+    #uhoh{
+        margin-left:50px;
+    }
+
+    h2{
+        background-color:rgb(222, 102, 255);
+        padding-top:30px;
+        padding-bottom:30px;
+        border-radius:15px;
+        color:white;
+    }
+
+    body{
+        background-size:cover;
+    }
+
+    canvas{
+        box-shadow: 5px 5px 10px skyblue;
+        border-color:rgb(188, 0, 209);
+        border-radius:15px;
+        border-style:solid;
+        border-width:10px;
+        margin-top:90px;
+    }
+</style>
